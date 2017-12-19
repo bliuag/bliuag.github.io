@@ -69,9 +69,10 @@
               <div class="team-member">
                 <img class="mx-auto rounded-circle" src="img/photo.jpg" alt="">
                 <h2>Boyu Liu</h4>
-                <p class="text-muted">Computer Vision, Deep Learning</p>
+                <p class="text-muted">Computer Vision, Deep Learning, NLP</p>
                 <p class="text-muted">Senior Undergraduate@HKUST</p>
                 <p class="text-muted">bliuag@connect.ust.hk</p>
+                <a href="Resume_Boyu_Liu.pdf" target="_blank"><p>RESUME</p></a>
                 <ul class="list-inline social-buttons">
                   <li class="list-inline-item">
                     <a href="https://github.com/bliuag">
@@ -147,7 +148,7 @@
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <h3>On-going</h3>
@@ -161,7 +162,7 @@
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <h3>On-going</h3>
@@ -175,7 +176,7 @@
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <h3>Finished</h3>
@@ -369,14 +370,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">3D Face Reconstruction</h2>
+                  <p class="item-intro text-muted">SenseTime</p>
+                  <img class="img-fluid d-block mx-auto" src="img/research/face.png" alt="">
+                  <p class="description">While interning at SenseTime, one of China’s largest AI companies, I worked to develop a deep network to combine information from a collection of photos of one person and produce a pose-invariant, expression-invariant detailed 3D model of that individual. I designed a two-stage coarse-to-fine framework. With the inspiration from a Stanford paper that LSTM can be used to refine 3D models, I used VGG as feature extractor and LSTM for combining information. First-stage results already showed great improvements over using one 2D image, beating state-of-the-art in synthetic data, and giving a reconstructed 3D model that was identifiable as the person in question using real photos.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: Summer 2017</li>
+                    <li>Category: Computer Vision, Deep Learning</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -403,14 +403,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Unsupervised Sentiment Lexicon Induction</h2>
+                  <p class="item-intro text-muted">Cornell</p>
+                  <img class="img-fluid d-block mx-auto" src="img/research/sentiment.png" alt="">
+                  <p class="description">While on exchange at Cornell University, I started work on a sentiment lexicon induction project with Professor Claire Cardie. I built an unsupervised method to induce the sentiment of all Chinese words in a specific domain from a small set of human-annotated words. Using special features of Chinese, like characters and radicals, and features proved useful elsewhere, like generated word vectors, I have been able to obtain meaningful results.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: Spring 2017</li>
+                    <li>Category: Machine Learning, Natural Language Processing</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -437,14 +436,13 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Sentiment and Market Prediction</h2>
+                  <p class="item-intro text-muted">HKUST</p>
+                  <img class="img-fluid d-block mx-auto" src="img/research/prediction.png" alt="">
+                  <p class="description">Based on the intuition that the sentiment of a given stock market report indicates market fluctuation, I worked with three other students under the supervision of Professor Qiang Yang to relate market reports to sentiment and further to stock market predictions. We used a convolutional neural network as the feature extractor for a given paragraph and fluctuations of the stock market as labels, and I was in charge of designing the network and coding. The resulting framework showed clear predictive power; once more features are added, the method will be a promising approach to market prediction.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Date: Fall 2016</li>
+                    <li>Category: Machine Learning, Natural Language Processing</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
